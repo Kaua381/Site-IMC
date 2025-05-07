@@ -1,0 +1,132 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS GERAIS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #1f1d1d;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* CABEÇALHO */
+header {
+    padding: 20px 0;
+    background: linear-gradient(to right, #07e98b, #1f2dad);
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+/* FORMULÁRIO E CONTEÚDO */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1f2dad;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#resultado {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #18181a;
+}
+
+/* BOTÃO E LINK DO RODAPÉ */
+button,
+footer a {
+    background-color: #78b8dd;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #317399;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover,
+footer a:hover {
+    text-decoration: underline;
+    color: #4b0082; /* Purple */
+    background-color: #07e98b;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 80px;
+    padding: 20px 0;
+    background: linear-gradient(to right, #07e98b, #1f2dad);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    margin: 0 10px;
+    display: inline-block;
+}
